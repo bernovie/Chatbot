@@ -68,15 +68,6 @@ public class Magpie2
 		{
 			response = "Tell me more about your family.";
 		}
-		else if (statement.indexOf("poop") >= 0
-				|| statement.indexOf("shit") >= 0
-				|| statement.indexOf("fuck") >= 0
-				|| statement.indexOf("idiot") >= 0
-				|| statement.indexOf("stupid") >= 0
-				|| statement.indexOf("dumbass") >= 0)
-		{
-			response = "Watch your language young user";
-		}
 		else if (statement.indexOf("game of thrones") >= 0
 				|| statement.indexOf("the walking dead") >= 0
 				|| statement.indexOf("breaking bad") >= 0
